@@ -30,14 +30,15 @@
 			<!--Navbar-->
 			<nav class="row text-white justify-content-between align-items-center text-uppercase pt-4">
 				<!--Logo-->
-				<a href="#" class="col-auto text-reset">
+				<a href="#" class="col-12 col-md-auto text-reset text-center mb-3 mb-md-0">
 					<img src="assets/images/logo-white.svg" alt="Logo Sara" class="img-logo"> Sara Johansson</a>
 					<!--Anchor-->
-					<div class="col-auto">
-						<a href="#" class="text-reset pr-3">Home</a>
-						<a href="#" class="text-reset pr-3">Work</a>
-						<a href="#" class="text-reset pr-3">About</a>
-						<a href="#" class="text-reset">Contact</a>
+					<div class="col-12 col-md-auto d-flex flex-wrap justify-content-around">
+						<a href="#home" class="text-reset pr-3">Home</a>
+						<a href="#work" class="text-reset pr-3">Work</a>
+						<a href="#about" class="text-reset pr-3">About</a>
+						<a href="#studies" class="text-reset pr-3">My Studies</a>
+						<a href="#contact" class="text-reset">Contact</a>
 					</div>
 			</nav>
 		</div>
@@ -47,21 +48,23 @@
 				<!--Title-->
 				<h1 class="text-capitalize"><span  class="text-warning h5">Hi, I am</span> <br>Sara Johansson</h1>
 					<!--Description-->
-					<h2>Journalist</h2>
+					<h2 class="d-none d-md-block">Journalist</h2>
 					<!--Btn-->
-					<a href="#" class="text-reset btn btn-warning">View my Portfolio</a>
+					<a href="#" class="text-reset btn btn-warning">Download My CV</a>
 			</div>
 		</div>
-		
+
 		<img src="assets/images/cut-header.svg" alt="">
 	</header>
 
 		<!--Experience-->
 		<section class="container">
-			<div class="row">
+			<a name="work"></a>
+			<div class="row justify-content-md-center">
 				<!--Texts-->
 				<div class="col-12 text-center">
-					<h2 class="text-warning text-uppercase">My Work Experience</h2>
+
+					<h2 class="text-warning text-uppercase"> Work Experience</a></h2>
 					<p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam esse maiores
 						id voluptatem, dolore distinctio,
 						maxime necessitatibus quos accusantium impedit quibusdam. Tempore mollitia vero excepturi,
@@ -69,50 +72,55 @@
 				</div>
 				<!--Cards-->
 				<!--Card1-->
-				<article class="col-4 card-effect">
+				<article class="col-md-6 col-lg-4 card-effect mb-3 mb-md-0">
 					<div class="card">
 						<img src="assets/images/raiting.png" alt="Dagens Juridik" class="card-img card-img-filter">
 						<div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
 							<h4>Dagens Juridik</h4>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque unde perspiciatis
-								rem!
-								dio cum placeat dignissimos consectetur harum minus.</p>
-							<a href="#" class="text-reset">Read More</a>
+							<p>(Jan 2020-actual )In January 2020, "Dagens Juridik" invested in business,
+								where I have the main responsibility. I write about listed companies, corporate deals,
+								M&A,
+								the auditing industry, fintech, economic crimes and disputes in the courts</p>
+							<a href="https://www.dagensjuridik.se/" target="_blank" class="text-reset">Go to
+								newspaper</a>
 						</div>
 					</div>
 				</article>
 				<!--Card2-->
-				<article class="col-4 card-effect">
+				<article class="col-md-6 col-lg-4 card-effect mb-3 mb-md-0">
 					<div class="card">
 						<img src="assets/images/camping.png" alt="Realtid" class="card-img card-img-filter">
 						<div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
 							<h4>Realtid</h4>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque unde perspiciatis
-								rem!
-								dio cum placeat dignissimos consectetur harum minus.</p>
-							<a href="#" class="text-reset">Read More</a>
+							<p>(2007-2020) For 12 years I wrote about listed companies, corporate deals, M&A, the legal
+								profession,
+								fintech, eco-crimes and disputes in the courts. It became my main task at the newspaper.
+								Take care of tips that required a lot of review</p>
+							<a href="https://www.realtid.se/" target="_blank" class="text-reset">Go to newspaper</a>
 						</div>
 					</div>
 				</article>
 				<!--Card3-->
-				<article class="col-4 card-effect">
+				<article class="col-md-6 col-lg-4 card-effect mt-md-4 mt-lg-0">
 					<div class="card">
 						<img src="assets/images/hiking.png" alt="Expressen" class="card-img card-img-filter">
 						<div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
 							<h4>Expressen</h4>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque unde perspiciatis
-								rem!
-								dio cum placeat dignissimos consectetur harum minus.</p>
-							<a href="#" class="text-reset">Read More</a>
+							<p>(2006-2007) I worked for 10 months, of which the first time as an intern and then in
+								various parts of the magazine
+								such as the Friday supplement, the web, the news, feature,
+								which became my first job and the beginning of my career in journalism</p>
+							<a href="https://www.expressen.se/" target="_blank" class="text-reset">Go to newspaper</a>
 						</div>
 					</div>
 				</article>
 			</div>
 		</section>
 
-		<!--Testimonials section-->
-		<section class="comments linear-white">
-			<img src="assets/images/cut-header.svg" alt="Rotate image" class="transform-turn">
+		<!--About me Section-->
+		<section class="comments linear-white mb-5">
+			<a name="about"></a>
+			<img src="assets/images/cut-header.svg" alt="Rotate image" class="transform-turn ">
 			<div class="container">
 				<div class="row">
 					<blockquote class="col-12 text-white text-center vh-30">
@@ -120,11 +128,14 @@
 						<img src="assets/images/journalist.jpeg" alt="Journalist" class="comments_img">
 						<!--Comment-->
 						<p class="pt-3">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ut.
-							Dolorum aliquid vero, soluta quasi rem cum! Temporibus quos ut facere maxime iste ab quas,
-							harum sapiente suscipit aliquam tempore saepe magnam tempora. Explicabo, corporis ratione
-							impedit eligendi rem
-							voluptas at ullam a voluptatum inventore quo dicta, accusamus quod et.
+							Hi, my name is Sara Johansson. I have worked as a journalist since 2005. 
+                            the dream of living on writing and being a journalist came when I was 15 years old. 
+                            I started in the social sciences program with a focus on media. I then applied up the country to Sundsvall 
+                            and the Central University where I studied media and communication science, which I took a file, bachelor's degree in. 
+                            I also studied graphic design and newspaper design to broaden my knowledge. Then I studied journalism at Kaggeholms university 
+                            and got the opportunity for several internships, including at Eskilstuna Courier, Folkbladet and Expressen. At Expressen, i got continued employment. 
+                            Since then, my focus has been on economics, finance and business journalism. I worked for 12 years at the financial magazine Realtid and now I have been 
+                            involved in starting up today's business venture at Dagens Juridik.
 						</p>
 						<!--Name-->
 						<footer class="blockquote-footer text-white">
@@ -135,66 +146,83 @@
 			</div>
 		</section>
 
-            <!--Contact info-->
-            <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">Contact</h3>
-                <h5 class="uppercase text-center">Any question you might have, please fill the form below!</h5>
+		<!--My Studies-->
+		<section class="container">
+			<a name="studies">
+				<div class="row">
+					<!--titles-->
+					<div class="col-12 text-center">
+						<h2 class="text-capitalize mb-1">List of schools and univerties</h2>
+					</div>
+					<!--Studie List-->
+					<ul class="col-12 text-center>
+                        <li class="studies justify-content-center">
+						    <div class="study-body text-center">
+							    <h5 class="h6 mb-0 mb-1">2001-2004</h5>
+							    <br>
+							    <h4>Mittuniversitet</h4>
+							    <h3 class="h6">
+								Bachelor's degree in philosophy. Media and communication science</h3>
+							    <p>Also studied graphic design, magazine design, electronic publishing, advanced typography,
+								image and graphics, also organization and leadership</p>
+							    <br>
+							    <h5 class="h6 mb-0 mb-1">2004-2006</h5>
+							    <br>
+							    <h4>Kaggeholms folkhögskola</h4>
+							    <h3 class="h6">
+								Bachelor's degree in philosophy. Media and communication science</h3>
+							    <p>Also studied graphic design, magazine design, electronic publishing, advanced typography,
+								image and graphics, also organization and leadership</p>
+							    <br>
+							    <h5 class="h6 mb-0 mb-1">2004-2006</h5>
+						    	<br>
+							    <h4>Kaggeholms folkhögskola</h4>
+							    <h3 class="h6">
+								Bachelor's degree in philosophy. Media and communication science</h3>
+							    <p>Also studied graphic design, magazine design, electronic publishing, advanced typography,
+								image and graphics, also organization and leadership</p>
+						    </div>
+					    </li>
+					</ul>
+				</div>
+		</section>
+         <hr class="mb-4">
+		<!--Contact info-->
+		<section class="container-fluid">
+			<a name="contact">
+				<div class="row bg-color-contact">
+					<div class="col">
+						<h3 class="contact-heading uppercase text-center">Contact</h3>
+						<h5 class="uppercase text-center">Any question you might have, please fill the form below!</h5>
 
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+						<div class="center-form">
+							<form>
+								<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+								<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+								<textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+								<div class="form-row text-center">
+									<div class="col">
+										<button type="submit" class="btn btn-secondary">Send Project Request</button>
+									</div>
+								</div>
+							</form>
+						</div>
 
+					</div>
+				</div>
+		</section>
+        <footer class="bg-light text-dark pt-5 pb-4">
+            <div class="container text-center text-md-left">
+                <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 max-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-info">Contact us</h5>
+                        <hr class="mb-4">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quas nihil distinctio 
+                        consequatur fuga dolorem labore ut iure officia, autem repellat dolor magni iste quae, asperiores 
+                        laborum, perferendis possimus expedita.</p>
+                    </div>
             </div>
-        </div>
+        </footer> 
 
-    </section>
-
-    <!--Footer Section-->
-    <footer class="container-fluid bg-dark text-white pt-4 pb-1">
-        <div  id="footer-details" class="row">
-            <div class="col-sm-4">
-                 <!--logo-->
-                <a href="#" class="col-sm-4 text-reset text-uppercase d-flex align-items-center">
-                    <img src="assets/images/logo-white.svg" alt="Logo Sara" class="img-logo mr-2">
-                    Sara Johansson
-                </a>
-            </div>
-             <div class="col-sm-4 ">
-                <h5 class="uppercase general-sub text-align-center">Contact Info</h5>
-                <!--menu-->
-                <ul class="col-4 list-unstyled justify-content-center">
-                    <li class="lista">Sara Johansson</li>
-                    <li>Journalist Street 7</li>
-                    <li>(046)076 1234 65 89 74</li>
-                    <li>Stockholm</li>
-                    <li>sara@journalist.se</li>                   
-                </ul>
-            </div>
-                      <!--social icons-->
-             <div class="col-sm-4 social-icons">
-                <ul class="col-4 list-unstyled">
-                    <li class="font-weight-bold text-uppercase">Social Icons</li>
-                    <li class="d-flex justify-content-between ">
-                    <a href="#" class="text-reset"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#" class="text-reset"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="text-reset"><i class="fa fa-youtube"></i></a>
-                    <a href="#" class="text-reset"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="text-reset"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>     
-    </footer>
 </body>
 </html>

@@ -55,9 +55,9 @@ position: relative;
     transition-duration: 0.6s;
 }
 
-/*Testimonials Section*/
+/*About me Section*/
 .comments {
-    background-image: url('../images/gripsholm-castle.jpg');
+    background-image: url('../images/city.jpg');
     background-position: center;
     background-size: cover; 
     position: relative;
@@ -85,9 +85,6 @@ border: 3px ridge #fff;
     height: 40vmin;
 }
 
-.footer-image{
-  float: right;
-}
 
 /*Contact form*/
 .contact-heading {
@@ -110,35 +107,6 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
-/*footer*/
-.social-icons li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    justify-content: between;
-}
-
-.social-icons li a i:hover {
-    background: #e84610;
-}
-
-#footer-details {
-    padding: 20px;
-}
-
-.vh-center{
-    height: 10vmax;
-}
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -148,4 +116,12 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+/*Media Queries*/
+@media screen and (max-width:375px) {
+
+.vh-50{
+    height: 25vmax;
+}
 }
