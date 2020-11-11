@@ -13,6 +13,76 @@ __The purpose of this portfolio is to :__
 + Give the possibility to the journalist not only to be contacted but also
 for people are just curious in reading who this journalist is.
 
+# __Features__
+
+My project is a portfolio one page, and its is divided in four section. The page consist in a navegation bar, witch make it possible to move 
+to the different parts of the page. a home, work, my studies and a contact section. Also a footer with external and social links.
+
+### Let's take a look at the different parts of the page
+
++ [Portfolio](https://pretro.github.io/PortfolioMileStone/) (a link to the portoflio page)
+
++ The home section is where you can download the CV as well as navegate through the menu. Have in mind that
+the CV is ficticious and taken from the course "miniproject" from Code Institute.  
+
+![Image of the header](assets/images/home.png)
+
++ In the work experiece section you can see the journalist work history, and go to the newspaper realted to her work
+
+![Image of the Work section](assets/images/work.png)
+
++ The About section is a short description of the journalists profile.
+
+![Image of the About section](assets/images/about.png)
+
++ In the studies section, shows the information of theuniversities where the person in question study.
+The infortion shown in this section is real.
+
+![Image of the My Studies section](assets/images/studies.png)
+
++ The contact and footer are divided in two. The contact is a contact form where anyone who is interested can send 
+a messageto the journalist regarding any question.
+
++ The footbar holds the social links, external links, a menu where the user can navegate back to each section
+and the journalist personal information. (As well as in the CV,the personal information shown here is also not real, only the name of the journalist in the mail)
+
+
+![Image of the contact and footer section](assets/images/contact.png)
+
+# Technologies used
+
+For the making of this project, the following technologies has been used.
+
++ [Gitpod](https://www.gitpod.io/) 
+
+    Gitpod is used as the enviroment program were the page was made.
+
++ [Github](https://github.com/) 
+
+    Github is used as the development platform, you can upload your code and make repositories. This platform, gives other users
+    the opportunity to see your repositories if made as open source code.
+
++ [HTML](https://www.w3schools.com/)
+    
+    HTML is the language use to make websites.Since it is the standard markup languages for webpages.
+
++ [CSS](https://www.w3schools.com/css/default.asp)
+
+    CSS is the language used to style the pages made in HTML. 
+
++ [W3C Valitor HTML](https://validator.w3.org/)
+
+    W3C validator is the tool we use to check the markup validity in HTML.
+
++ [WC Valitor CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+    As mentioned above, this tool is use to check for errors in the css code.
+
++ [Fontawesome]
++ Googlefonts
++ Youtube
++ Bootstrap 4
+
 # Credits
 
 ## __Content__
