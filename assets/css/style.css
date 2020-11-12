@@ -63,6 +63,7 @@ position: relative;
     background-position: center;
     background-size: cover; 
     position: relative;
+    min-height: 50em;
 }
 
 .comments_img {

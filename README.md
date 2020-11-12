@@ -12,6 +12,23 @@ __The purpose of this portfolio is to :__
 + Reach out not only to companies but also people who'd like an interview
 + Give the possibility to the journalist not only to be contacted but also
 for people are just curious in reading who this journalist is.
++ Here is a link available to see the wireframe of the project. 
+    
+    [Projects wireframe](assets/wireframe/portfolio_wireframe.pdf)    
+
+## __User stories__
+
+As a user of this portfolio, i want to
+
+1. Be able to easy navegate through the page.
+2. Easy for people who enters the page to find my information
+3. The portfolio must be seen in different browsers
+4. The texts must be easy to read and understand
+5. The CV button is important that it works all time.
+6. Easy for the user to uppdate the textwhen available
+7. All links both to my work places and social media works
+8. Have the contact form to be working properly, since it is the 
+part of the page were people can get in touch with me.
 
 # __Features__
 
@@ -78,11 +95,89 @@ For the making of this project, the following technologies has been used.
 
     As mentioned above, this tool is use to check for errors in the css code.
 
-+ [Fontawesome]
-+ Googlefonts
-+ Youtube
-+ Bootstrap 4
++ [Fontawesome](https://fontawesome.com/)
 
+    Used for the icons of the social media and the personal information section in the footer
+
++ Googlefonts(https://fonts.google.com/)
+
+    The fonts used in this project are taken from Googlefonts.
+
++ Youtube(https://www.youtube.com/)
+
+    I use this site to get inspiration from other projects and to search informtaion regarding source code. 
+
++ Bootstrap 4(https://getbootstrap.com/)
+
+    Front-end opensource toolkit that is use for the making of this project, and to customize the site to mobile responsive.
+
+# Testing
+
+    During my test period i focus on the user stories.
+    The page has been tested in different browser, such as.
+
+    1. Chrome
+    2. Firefox
+    3. Safari
+    4. Microsoft edge
+
+    The responsive part has also been tested in http://www.responsinator.com/ for  
+
+    1. Ipad
+    2. Iphone
+    3. Android
+    4. Laptop
+
+    The language of the page both HTML and CSS were tested for errors and warnings in
+
+    1. W3C Validator HTML.
+    2. W3C validator CSS.
+
+    The following scenarios were tested during the project
+
+    CV download
+    1. Go to the home section of the page.
+    2. Press the "Download My CV" button.
+    3. A PDF file should appear in your monitor.
+    4. You could now be able to download it to your computer.
+
+    Navegation Menu
+    1. Press any section in the navmenu.
+    2. You can get to any sectioniun the page.
+
+    Work section and external links section.
+    1. Go to the work section.
+    2. Press any of the links.
+    3. Another windows open and you can see the page you press for. 
+    4. The external link section is at the footer of the page.
+    5. For This links it is the same procedure.
+
+    Contact form
+    As written in the user stories sectio in this page. This part is very important for the user 
+    since is the section were people can get in touch.
+
+    1. Go to contact section.
+    2. Try to send an empty message. 
+    3. In the name field a warning text appears requiering to fill the name text box
+    4. After writting your name in the text box, try to send the message.
+    5. The same thing happens but now for the email section.
+    6. Do the same in the email section. Write an email and press the send button.
+    7. All the text fields must be written in able tosend a message
+    8. For the last test. Try to write a name, a message, but in the email textbox, write anything but a mail address.
+    9. A text warning appears and request to write a valid mail address.
+
+# Deployments
+
+    To deploy this porject, i used the hosting platform of Github
+    The step to deploy this project were as follows.
+
+    1. After creating my repository
+    2. Go to settings
+    3. Under "GitHub Pages", use the None drop-down menu and select a publishing source.
+    4. Next choose the root.
+    5. Click save and you will get the link to your webpage where others can enter and interact. 
+
+    
 # Credits
 
 ## __Content__
@@ -108,7 +203,7 @@ __For the font i use__
 + Also want to thank Christian Mossberg, a friend and personal mentor for helping me with advise during the course of this project.
 + To my mentor Antonio Rodriguez who had the patience to guide me whenever i did not understand a part of the project.
 + To "Granos de cafe". where i got my inspiration from to the making of the page.
-+ To the Code institite tutorial were i also got ideas from to make my project.
++ To the Code institute tutorial were i also got ideas from to make my project.
 
  
 
