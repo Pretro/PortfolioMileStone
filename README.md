@@ -14,7 +14,7 @@ __The purpose of this portfolio is to :__
 for people are just curious in reading who this journalist is.
 + Here is a link available to see the wireframe of the project. 
     
-    ![Projects wireframe](https://raw.githubusercontent.com/Pretro/PortfolioMileStone/main/assets/wireframe/portfolio_wireframe.pdf)    
+    ![Projects wireframe](assets/wireframe/wireframe1.jpeg)    
 
 ## __User stories__
 
