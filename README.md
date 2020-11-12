@@ -12,10 +12,13 @@ __The purpose of this portfolio is to :__
 + Reach out not only to companies but also people who'd like an interview
 + Give the possibility to the journalist not only to be contacted but also
 for people are just curious in reading who this journalist is.
-+ Here is a link available to see the wireframe of the project. 
++ Here are links available to see the wireframes of the project. 
     
-    ![Projects wireframe](assets/wireframe/wireframe1.jpeg)    
-
+    + [Wireframe 1](assets/wireframe/wireframe1.jpeg)
+    + [Wireframe 2](assets/wireframe/wireframe2.jpeg)
+    + [Wireframe 3](assets/wireframe/wireframe3.jpeg)
+    + [Wireframe 4](assets/wireframe/wireframe4.jpeg)    
+    + [Wireframe 5](assets/wireframe/wireframe5.jpeg)
 ## __User stories__
 
 As a user of this portfolio, i want to
@@ -197,6 +200,10 @@ __For the font i use__
 
 + [Googlefonts](https://fonts.google.com/) 
 
+# Code
++ Template code in this project was taken from Starter template section at [Bootstrap](https://getbootstrap.com/)
++ Code for the header, work experience, about me section was taken from granos de cafe tutorial in Youtube [Granos de cafe](https://www.youtube.com/watch?v=xcBTYXgEfdw&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ)
++ Code for the contact form was taken from the miniproject tutorial from [Code Institute]
 ## __Acknowledgements__
 
 + I want to start thanking Sara Johansson for helping with this project and giving kindly information about her carrer and study background.
