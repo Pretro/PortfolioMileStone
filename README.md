@@ -199,6 +199,7 @@ __The photos use in this project were taken from__
 
 + Sara Johansson
 + [Pixabay](https://pixabay.com/sv/) 
++ [Granos de cafe](http://www.mediafire.com/file/3ot139a8phwzmse/weston-practica-guida-01.zip/file)
 
 __For the social media icons__ 
 
