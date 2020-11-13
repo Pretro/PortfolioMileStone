@@ -113,6 +113,7 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/*Credit: Code for this part of the media Queries section was taken from code institute mini project lectures. slightly edited to fit project needs*/
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
