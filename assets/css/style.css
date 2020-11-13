@@ -1,5 +1,5 @@
 
-/*Credit: Code for the header section taken from https://www.youtube.com/watch?v=BEED-ZPmD0I&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ&index=2 and edited to fit project needs*/
+/*Credit: Code for the header section taken from Granos de cafe https://www.youtube.com/watch?v=BEED-ZPmD0I&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ&index=2 and edited to fit project needs*/
 /*Header Section*/
 .header{
 background-image: url('../images/stockholm.jpg');
@@ -37,7 +37,7 @@ position: relative;
     height: 25vmin;
 }
 
-/*Credit: Code for the header section taken from https://www.youtube.com/watch?v=CZ_fUrs3tL4&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ&index=3 and edited slightly to fit project needs*/
+/*Credit: Code for the header section taken from Granos de cafe https://www.youtube.com/watch?v=CZ_fUrs3tL4&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ&index=3 and edited slightly to fit project needs*/
 /*My work Section*/
 .card-effect:hover .card{
     clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
@@ -59,7 +59,7 @@ position: relative;
     transition-duration: 0.6s;
 }
 
-/*Credit: Code for the header section taken from https://www.youtube.com/watch?v=OW6bQ1AGuUk&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ&index=4 and edited slightly to fit project needs*/
+/*Credit: Code for the header section taken from Granos de cafe https://www.youtube.com/watch?v=OW6bQ1AGuUk&list=PLUW3XAK9O3HHv6LPCxTDLvg_YQMVNeiJZ&index=4 and edited slightly to fit project needs*/
 /*About me Section*/
 .comments {
     background-image: url('../images/city.jpg');
