@@ -75,7 +75,7 @@ width: var(--size);
 height: var(--size);
 object-fit: cover;
 border-radius: 50%;
-border-shadow: 7px 7px 7px rgba(0 0 0 /0.5);
+/*border-shadow: 7px 7px 7px rgba(0 0 0 /0.5);*/
 border: 3px ridge #fff;
 }
 
@@ -90,6 +90,7 @@ border: 3px ridge #fff;
 .vh-30{
     height: 40vmin;
 }
+
 
 /*Credit: Code for the header section taken from code institute mini project lectures. slightly edited to fit project needs*/
 /*Contact form*/
@@ -129,6 +130,13 @@ button[type="submit"] {
 @media screen and (max-width:375px) {
 
 .vh-50{
-    height: 50vmax;
+    height: 30vmax;
+}
+.text-reset{
+    font-size: 11px;
+}
+.comments{
+    min-height: 60em;
 }
 }
+

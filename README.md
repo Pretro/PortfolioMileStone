@@ -192,6 +192,7 @@ __The photos use in this project were taken from__
 
 + Sara Johansson
 + [Pixabay](https://pixabay.com/sv/) 
++ [Granos de cafe](http://www.mediafire.com/file/3ot139a8phwzmse/weston-practica-guida-01.zip/file)
 
 __For the social media icons__ 
 
@@ -213,6 +214,7 @@ __For the font i use__
 + To my mentor Antonio Rodriguez who had the patience to guide me whenever i did not understand a part of the project.
 + To "Granos de cafe". where i got my inspiration from to the making of the page.
 + To the Code institute tutorial were i also got ideas from to make my project.
++ To The Providers for making wonderful tutorial videos on Youtube.
 
  
 
